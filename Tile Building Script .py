@@ -46,7 +46,7 @@ class tileMap:
         self.height = height
         self.tiles = tiles
         
-        self.tileArray = np.array([['11110']*height]*width) ########<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+        self.tileArray = np.array([['00000']*height]*width) ########<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
         self.tileArray[1:width-1,1:height-1] = '#####'
         
     def place_tile(self, tile, x, y):
