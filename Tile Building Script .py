@@ -46,7 +46,7 @@ class tileMap:
         self.height = height
         self.tiles = tiles
         
-        self.tileArray = np.array([['00000']*height]*width) ########<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+        self.tileArray = np.array([['00000']*height]*width) 
         self.tileArray[1:width-1,1:height-1] = '#####'
         
     def place_tile(self, tile, x, y):
@@ -132,7 +132,7 @@ class tileMap:
         return (tile1[checkSide], tile2[(checkSide+2)%4])
     
         
-path = 'C:/Users/batte/OneDrive/_Parker/Python/Carcassonne/Wang_2'     
+path = 'C:/whateverpath/Wang_2'     #PATH MUST BE CHANGED TO WHATEVER PATH LEADS TO THE IMAGES FOLDER
 
 
 tilePaths, names = find_all(path)
