@@ -5,7 +5,7 @@ Created on Mon Sep  7 11:36:56 2020
 @author: batte
 """
 
-
+#THIS IS NOT TO BE USED. IT ONLY MAKES SENSE IF I EXPLAIN IT, WHICH I WILL NOT DO RIGHT NOW
 
 from tkinter import *  
 from PIL import ImageTk,Image 
